@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+      body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color:antiquewhite;
+        margin: 0px;
+      }
+      
+      nav{
+        background-color: rgb(211, 6, 6);
+        color: aliceblue;
+        padding: 3px;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.63) ;
+      }
+
+      nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+      }
+
+      nav > a:hover{
+        text-decoration: underline;
+      }
+
+      header{
+        width: 600px;
+        background-color: white;
+        padding:5px ;
+        margin: 10px;
+        
+      }
+
+      main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px ;
+      }
+
+      footer{
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
+      }
+
+      footer > p{
+        margin: 0px;
+      }
+
+      article{
+      background-color: lightgray;
+      padding: 5px;
+      }
+
+      article > aside{
+      background-color: rgb(245, 179, 98);
+      }
+
+      div#bola{
+        height: 100px;
+        width: 100px;
+        margin: 20px;
+        background-color: rgb(1, 255, 255);
+        border-radius: 50%;
+      }
+      
+  
+    </style>
+</head>
+<body>
+    <h1>tags de agrupamento são &lt;div&gt; e &lt;span&gt;</h1>
+    <div></div><!--box level-->
+    <span></span><!--inline level-->
+    <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <a href="#">link3</a>
+        <a href="#">link4</a>
+        <a href="#">link5</a>
+    </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+
+      </section>
+      <section id="noticias">
+      
+      </section>
+      <aside>
+      
+        <p>Escrito por Rogério Ceni</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloremque unde similique repudiandae. Cumque magnam expedita rem reprehenderit excepturi hic ab vel dicta, aspernatur eos ducimus ipsa magni tenetur veritatis.</p>
+      </aside>
+      </article>
+      <h2>Noticias sobre o Brasil</h2>
+      <article>
+        <h3>Esportes, tecnologia e cinema</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus ipsa nam nostrum quidem? Repudiandae iusto id hic quos sapiente aliquam, facilis officiis, eaque maiores, vel perspiciatis assumenda est at. Pariatur?</p>
+      </article>
+    </main>
+    <footer>
+    <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola"></div>
+    &reg;
+    &copy;
+
+</body>
+</html>
